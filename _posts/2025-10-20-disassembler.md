@@ -1,13 +1,11 @@
 ---
-title: the disassembler
+title: The Disassembler
 date: 2025-10-20 15:19:50 +0800
 categories: [projects]
 tags: [projects]
 ---
-### The Disassembler
-The Disassembler
-
-Hello, this is my first post, where I'll showcase a disassembler I've made a while ago, what's so special about it you ask? (even if you didn't) <b>It reassembles a modified instruction structure into bytes!</b>
+### Hello,
+this is my first post, where I'll showcase a disassembler I've made a while ago, what's so special about it you ask? (even if you didn't) <b>It reassembles a modified instruction structure into bytes!</b>
 
 Why Is it so fucking cool? well, because We can Stick something in the middle of the <i>.text</i> section insert a jmp before the inserted <i>stuff</i> and modify ALL the fucking instructions to point where they'd point without the new bytes stuck fuck-knows-where-ever just so they fit between instructions, so you can have e.g - ascii art in between valid instructions, with a little jump on top of it and everything executes as it shall.
 
@@ -25,5 +23,5 @@ CALL [stub + <rax_operand_offset>]
 ```
 which is hell-a-useful in advanced binary instrumentation - <b>this is where the fucking reassemble feature takes you</b>
 
-Anyway - that was about the potential of having specifically This disassembler as a pillar for your (wHy NoT?!) project.
+Anyway - that was about the potential of having specifically This disassembler as a pillar for your (Why not...) project.
 Have a look at it https://github.com/HeX0Rci5T/x86_disass
